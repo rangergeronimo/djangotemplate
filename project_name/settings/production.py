@@ -3,7 +3,7 @@ from .base import *
 # Configure remote domain name
 ALLOWED_HOSTS = [os.environ['WEBSITE_DOMAIN'] if 'WEBSITE_DOMAIN' in os.environ else []]
 
-DEBUG = False
+DEBUG = True
 
 # installed apps 
 INSTALLED_APPS += []
